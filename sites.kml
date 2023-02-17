@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sites.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_camera">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_camera">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_camera">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>West Wight Alpacas</name>
+		<LookAt>
+			<longitude>-1.457879996362003</longitude>
+			<latitude>50.69255631229739</latitude>
+			<altitude>0</altitude>
+			<heading>0.001717378308140598</heading>
+			<tilt>17.92960746296702</tilt>
+			<range>262.3542604837081</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.458939092729339,50.69279319586715,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>The Needles</name>
+		<LookAt>
+			<longitude>-1.584116002553758</longitude>
+			<latitude>50.66363682199551</latitude>
+			<altitude>0</altitude>
+			<heading>-0.09389207030877271</heading>
+			<tilt>24.0973205017632</tilt>
+			<range>551.8463205279392</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.583321069145949,50.6627818387057,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Carisbrooke Castle</name>
+		<LookAt>
+			<longitude>-1.312908095942654</longitude>
+			<latitude>50.68741563847367</latitude>
+			<altitude>0</altitude>
+			<heading>0.003267164194746634</heading>
+			<tilt>33.39976504486047</tilt>
+			<range>229.5562755473835</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.313420878111901,50.68733285822631,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tapnell Farm Park</name>
+		<LookAt>
+			<longitude>-1.46971121316851</longitude>
+			<latitude>50.67962572979051</latitude>
+			<altitude>0</altitude>
+			<heading>-1.13026818702188e-05</heading>
+			<tilt>16.15762560490263</tilt>
+			<range>539.0177797647799</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.469762741646075,50.67967484714442,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Isle of Wight Steam Railway</name>
+		<LookAt>
+			<longitude>-1.213318336894548</longitude>
+			<latitude>50.70539001772089</latitude>
+			<altitude>0</altitude>
+			<heading>0.0009685622460024192</heading>
+			<tilt>15.0271944377817</tilt>
+			<range>459.1983916454655</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.214581180728372,50.70516503922567,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Appuldurcombe House</name>
+		<LookAt>
+			<longitude>-1.23315210149914</longitude>
+			<latitude>50.61684902623983</latitude>
+			<altitude>0</altitude>
+			<heading>0.0003512230391342561</heading>
+			<tilt>13.56468633424025</tilt>
+			<range>541.4541077966035</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_camera</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-1.233641016025234,50.61692479011954,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
